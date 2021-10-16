@@ -27,7 +27,7 @@ Speech recognition is a technique that converts human speech signals into text o
 Creating a human-machine interaction system for Bangla spoken numbers. In order to achieve that, extract meaningful features from the Bangla numerical speech data and measure the performance of recognizing bangla spoken digits from audio data.
 
 ## Quick Start Guide
-1. `https://github.com/PiasRoY/Bangla-Spoken-Number-Recognition.git`
+1. clone this repo `https://github.com/PiasRoY/Bangla-Spoken-Number-Recognition.git`
 2. collect our own developed dataset from here: `https://www.kaggle.com/piasroy/bangla-spoken-099-numbers`
 3. copy all the folders labelled from "0-99" and paste them into the `Bangla_Spoken_Numbers` folder of this repo.
 4. install required python dependencies from `requirements.txt`.
