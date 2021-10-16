@@ -4,7 +4,7 @@
 
 - [Motivation](#motivation)
 - [Introduction](#introduction)
-- [Quick Start Guide](#quick-starting-the-project)
+- [Quick Start Guide](#quick-start-guide)
 - [Methodology](#methodology)
 - [Experimental Result & Analysis](#implementation)
 - [Contribution](#contribution)
