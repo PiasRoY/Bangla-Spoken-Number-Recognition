@@ -6,7 +6,6 @@
 - [Introduction](#introduction)
 - [Quick Start Guide](#quick-start-guide)
 - [Methodology](#methodology)
-- [Experimental Result & Analysis](#experimental-result--analysis)
 - [Contribution](#contribution)
 - [Links and References](#links-and-references)
 - [Authors](#authors)
@@ -26,8 +25,6 @@ Speech recognition is a technique that converts human speech signals into text o
 5. open and run `100_class_CNN.ipynb`.
 
 ## Methodology
-
-## Experimental Result & Analysis
 
 
 ## Contribution
