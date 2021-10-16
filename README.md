@@ -4,7 +4,6 @@
 
 - [Motivation](#motivation)
 - [Introduction](#introduction)
-- [Objectives](#objectives)
 - [Quick Start Guide](#quick-starting-the-project)
 - [Methodology](#methodology)
 - [Experimental Result & Analysis](#implementation)
@@ -18,9 +17,6 @@ Speech is a very convenient way to interact with machines. At present, most feat
 
 ## Introduction
 Speech recognition is a technique that converts human speech signals into text or words or in any form that can be easily understood by computers or other machines. There have been a few studies on Bangla digit recognition systems, the majority of which used small datasets with few variations in genders, ages, dialects, and other variables. Audio recordings of Bangladeshi people of various genders, ages, and dialects were used to create a large speech dataset of spoken '০-৯' Bangla digits in this study. Here, 400 noisy and noise-free samples per digit have been recorded for creating the dataset. Mel Frequency Cepstrum Coefficients (MFCCs) have been utilized for extracting meaningful features from the raw speech data. Then, to detect Bangla numeral digits, Convolutional Neural Networks (CNNs) were utilized. The suggested technique recognizes '০-৯' Bangla spoken digits with 97.1% accuracy throughout the whole dataset. The efficiency of the model was also assessed using 10-fold cross validation, which yielded a 96.7% accuracy.
-
-## Objectives
-Creating a human-machine interaction system for Bangla spoken numbers. In order to achieve that, extract meaningful features from the Bangla numerical speech data and measure the performance of recognizing bangla spoken digits from audio data.
 
 ## Quick Start Guide
 1. clone this repo `https://github.com/PiasRoY/Bangla-Spoken-Number-Recognition.git`
