@@ -1,0 +1,9 @@
+pydub==0.25.1
+numpy==1.19.5
+noisereduce==2.0.0
+librosa==0.8.1
+tqdm==4.62.3
+
+kaggle
+matplotlib
+tensorflow
