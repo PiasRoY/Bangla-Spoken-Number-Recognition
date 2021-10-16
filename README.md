@@ -6,10 +6,10 @@
 - [Introduction](#introduction)
 - [Quick Start Guide](#quick-start-guide)
 - [Methodology](#methodology)
-- [Experimental Result & Analysis](#implementation)
+- [Experimental Result & Analysis](#experimental-result-&-analysis)
 - [Contribution](#contribution)
 - [Links and References](#links-and-references)
-- [Author](#author)
+- [Authors](#authors)
 - [Licensing](#licensing)
 
 ## Motivation
