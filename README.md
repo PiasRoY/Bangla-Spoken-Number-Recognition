@@ -7,11 +7,8 @@
 - [Objectives](#objectives)
 - [Quick Start Guide](#quick-starting-the-project)
 - [Methodology](#methodology)
-    - [Vehicle Classification](#vehicle-classification)
-    - [Violation Detection](#violation-detection)
-- [Implementation](#implementation)
-    - [Computer Vision](#computer-vision)
-    - [Graphical User Interface](#graphical-user-interface)
+- [Experimental Result & Analysis![image](https://user-images.githubusercontent.com/36897094/137585351-0882f06e-0712-48ba-a6f8-7244097631da.png)
+](#implementation)
 - [Contribution](#contribution)
 - [Links and References](#links-and-references)
 - [Author](#author)
@@ -34,56 +31,8 @@ Creating a human-machine interaction system for Bangla spoken numbers. In order 
 5. open and run `100_class_CNN.ipynb`.
 
 ## Methodology
-### Vehicle Classification
-From the given video footage, moving objects are detected. An object detection model YOLOv3 is used to classify those moving objects into respective classes. YOLOv3 is the third object detection algorithm in YOLO (You Only Look Once) family. It improved the accuracy with many tricks and is more capable of detecting objects. The classifier model is built with Darknet-53 architecture. Table-1 shows how the neural network architecture is designed. 
 
-![Darknet Architecture](Images/Darknet-53.png)
-
-
-### Violation detection
-
-The vehicles are detected using YOLOv3 model. After detecting the vehicles, violation cases are checked. A traffic line is drawn over the road in the preview of the given video footage by the user. The line specifies that the traffic light is red. Violation happens if any vehicle crosses the traffic line in red state.
-
-The detected objects have a green bounding box. If any vehicle passes the traffic light in red state, violation happens. After detecting violation, the bounding box around the vehicle becomes red.
-
-
-## Implementation
-### Computer Vision
-OpenCV is an open source computer vision and machine learning software library which is used in this project for image processing purpose. Tensorflow is used for implementing the vehicle classifier with darknet-53. 
-
-
-### Graphical User Interface (GUI)
-The graphical user interface has all the options needed for the software. The software serves administration and other debugging purposes. We don’t need to edit code for any management. For example, if we need to open any video footage, we can do it with the Open item (Figure-2). 
-
-![Figure 2](Images/Initial_View.jpg)
-
-     Figure-2: Initial user interface view.
-
-Primarily, for the start of the project usage, the administrator needs to open a video footage using ‘Open’ item that can be found under ‘File’ (Figure-2). The administrator can open any video footage from the storage files (Figure-3).
-
-![Figure 3](Images/Open_Video.JPG)
-
-     Figure-3: Opening a video footage from storage.
-
-After opening a video footage from storage, the system will get a preview of the footage. The preview contains a frame from the given video footage. The preview is used to identify roads and draw a traffic line over the road. The traffic line drawn by administrator will act as a traffic signal line. To enable the line drawing feature, we need to select ‘Region of interest’ item from the ‘Analyze’ option (Figure-4). After that administrator will need to select two points to draw a line that specifies traffic signal.
-
-![Figure 4](Images/Select_Region_of_Interest.jpg)
-
-     Figure-4: Region of Interest (Drawing signal line)
-
-Selecting the region of interest will start violation detection system. The coordinates of the line drawn will be shown on console (Figure-5). The violation detection system will start immediately after the line is drawn. At first the weights will be loaded. Then the system will detect objects and check for violations. The output will be shown frame by frame from the GUI (Figure-6). 
-
-![Figure 5](Images/Line_Coordinates.JPG)
-
-     Figure-5: Line Coordinates (from console)
-
-![Figure 6](Images/Violation_Detection_Frame.jpg)
-
-     Figure-6: Final Output (on each frame)
-
-The system will show output until the last frame of the footage. In background a ‘output.mp4’ will be generated. The file will be in ‘output’ folder of ‘Resources’. The process will be immediately terminated by clicking ‘q’.
-
-After processing a video footage, the administrator can add another video footage from the initial file manager (Figure-2). If the work is complete the administrator can quit using ‘Exit’ item from File option.
+## Experimental Result & Analysis
 
 
 ## Contribution
