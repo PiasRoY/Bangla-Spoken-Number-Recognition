@@ -6,7 +6,7 @@
 - [Introduction](#introduction)
 - [Quick Start Guide](#quick-start-guide)
 - [Methodology](#methodology)
-- [Experimental Result & Analysis](#experimental-result-&-analysis)
+- [Experimental Result & Analysis](#experimental-result--analysis)
 - [Contribution](#contribution)
 - [Links and References](#links-and-references)
 - [Authors](#authors)
@@ -40,7 +40,7 @@ There aren't many open source project on speech recognition systems, specially o
 - http://www.practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs
 
 
-## Author
+## Authors
 Pias Roy, Ovishake Sen<br>
 pias.kuet@gmail.com<br>
 ovishake_sample@gmail.com<br>
