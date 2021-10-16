@@ -43,7 +43,7 @@ There aren't many open source project on speech recognition systems, specially o
 ## Authors
 Pias Roy, Ovishake Sen<br>
 pias.kuet@gmail.com<br>
-ovishake_sample@gmail.com<br>
+ovishake5594@gmail.com<br>
 Department of Computer Science and Engineering<br>
 Khulna University of Engineering & Technology, Khulna<br>
 Bangladesh
