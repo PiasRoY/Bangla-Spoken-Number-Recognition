@@ -7,7 +7,7 @@
 - [Objectives](#objectives)
 - [Quick Start Guide](#quick-starting-the-project)
 - [Methodology](#methodology)
-- [Experimental Result & Analysis(#implementation)
+- [Experimental Result & Analysis](#implementation)
 - [Contribution](#contribution)
 - [Links and References](#links-and-references)
 - [Author](#author)
