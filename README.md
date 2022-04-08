@@ -27,7 +27,9 @@ Automatic speech recognition (ASR) converts human speech into text or words that
 ## Methodology
 In this study, a Bangla numerical speech recognition system has been proposed using deep learning models. Initially, a speech corpus of Bangla numbers from '০-৯৯' (0-99) was
 created. The raw speech data is then preprocessed to remove noise and silence from the signals. The raw speech data were then subjected to various audio augmentation techniques. After that, the MFCC features are extracted from the speech data that has been processed. The dataset is then divided into three sets: train, validation, and test.
-The train and validation data are used to train our proposed CNN model in the training phase and got the train and validation accuracy of the dataset. The processed test data is fed into the CNN model during the testing phase of the proposed CNN model to obtain the predicted output classes and the CNN model’s test accuracy for the dataset. We also used the cross- validation technique to check the effectiveness of the model’s performance. Figure 4.1 is showing the Basic structure of the proposed deep learning-based model for numerical speech recognition.
+The train and validation data are used to train our proposed CNN model in the training phase and got the train and validation accuracy of the dataset. The processed test data is fed into the CNN model during the testing phase of the proposed CNN model to obtain the predicted output classes and the CNN model’s test accuracy for the dataset. We also used the cross- validation technique to check the effectiveness of the model’s performance. Figure below shows the Basic structure of the proposed deep learning-based model for numerical speech recognition.
+
+![Flow Diagram](imgs/fd.png)
 
 ## Contribution
 There aren't many open source project on speech recognition systems, specially on Bangla Language. Therefore, it will be helpful for those who want to work on speech recognition and create their own unique project. Good Luck to you and give a star to this repo. 👍
